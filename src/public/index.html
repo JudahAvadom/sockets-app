@@ -3,7 +3,19 @@
     <head>
         <meta charset="utf-8" />
         <title>Chat using Sockets</title>
+        <link rel="stylesheet" href="/main.css">
     </head>
     <body>
+        <div id="chat-container">
+            <div id="chat-window">
+                <div id="output"></div>
+                <div id="actions"></div>
+            </div>
+            <input type="text" id="username" placeholder="Username" autocomplete="off">
+            <input type="text" id="message" placeholder="Mensaje" autocomplete="off">
+            <button id="send">Enviar</button>
+        </div>
     </body>
+    <script src="/socket.io/socket.io.js"></script>
+    <script srC="/chat.js"></script>
 </html
