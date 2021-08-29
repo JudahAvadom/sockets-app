@@ -1,0 +1,27 @@
+{
+  "name": "sockets-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev":"nodemon src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RedCode26/sockets-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RedCode26/sockets-app/issues"
+  },
+  "homepage": "https://github.com/RedCode26/sockets-app#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

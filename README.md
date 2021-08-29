@@ -1,2 +1,1 @@
-# sockets-app
- A simple app usin socket.io
+# Ejemplo practico de Sokets.io
